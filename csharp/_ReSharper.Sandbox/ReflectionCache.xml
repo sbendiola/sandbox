@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="antlr.runtime, Version=2.7.6.2, Culture=neutral, PublicKeyToken=65e474d141e25e07" Image="b2e0c651-ab05-4d9f-acc4-546490c43104" Timestamp="633501891542190270" />
+  <Assembly Name="Common.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e" Image="84e43b2c-1e0a-4a01-9927-3abb0bd11c45" Timestamp="633501891539222451" />
+  <Assembly Name="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821" Image="db4ac97b-b160-4f7b-8470-4847c890e7c1" Timestamp="633468182834524052" />
+  <Assembly Name="nunit.core, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" Image="95a0e5fd-d0cc-4617-9625-ef87d6384020" Timestamp="633425307600000000" />
+  <Assembly Name="nunit.core.extensions, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" Image="0412d4f3-1171-41c5-aaaa-d93de54e3599" Timestamp="633425307600000000" />
+  <Assembly Name="nunit.core.interfaces, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" Image="e150b5ab-dfe3-4c18-8593-d845b6def900" Timestamp="633425307600000000" />
+  <Assembly Name="nunit.framework, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" Image="6cf57eb4-e634-46d4-a155-93b790502594" Timestamp="633425307600000000" XmlDocIndexTimestamp="633462121844424926" />
+  <Assembly Name="nunit.framework.extensions, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" Image="b02b7c47-be59-44e0-a927-337c5b8b0941" Timestamp="633425307600000000" />
+  <Assembly Name="Retlang, Version=0.3.0.3, Culture=neutral, PublicKeyToken=a99b3bce1dc72e93" Image="983f31d8-40bd-49e3-a7d0-e1602de11a09" Timestamp="633518340079404856" />
+  <Assembly Name="Rhino.Mocks, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f" Image="1e42b0a6-9c44-4777-8fad-cfb674df9446" Timestamp="633389494200000000" XmlDocIndexTimestamp="633462245833631390" />
+  <Assembly Name="Spring.Core, Version=1.1.0.2, Culture=neutral, PublicKeyToken=65e474d141e25e07" Image="f69e76c8-ad5b-4ed2-8a98-202cbde9ac02" Timestamp="633468183134676460" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="9094b687-05e9-4bef-a31c-23f0611bdcd4" Timestamp="633559958920000000" XmlDocIndexTimestamp="633559958920000000" />
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="f55b7649-c74e-4030-93cd-905f677b0656" Timestamp="633529932480000000" XmlDocIndexTimestamp="633490255300000000" />
+  <Assembly Name="Rhino.Mocks, Version=3.5.0.1337, Culture=neutral, PublicKeyToken=0b3305902db7183f" Image="1798bb0e-da1b-4991-9402-29ec76fd6ab4" Timestamp="633650450600626250" />
+</Assemblies>

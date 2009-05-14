@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <!-- A1 is set to be a ConsoleAppender -->
+  <appender name="RollingLogFileAppender" type="log4net.Appender.RollingFileAppender">
+    <file value="c:\log-file.txt" />
+    <appendToFile value="true" />
+    <rollingStyle value="Composite" />
+    <datePattern value="yyyyMMdd" />
+    <maxSizeRollBackups value="1" />
+    <maximumFileSize value="1MB" />
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%thread] %-5level %logger [%property{NDC}] - %message%newline" />
+    </layout>
+  </appender>
+
+  <!-- Set root logger level to DEBUG and its only appender to A1 -->
+  <root>
+    <level value="DEBUG" />
+    <appender-ref ref="RollingLogFileAppender" />
+  </root>
+</log4net>

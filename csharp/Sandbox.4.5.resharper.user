@@ -1,0 +1,629 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@NUnit">
+      <Item value="Core" priority="2" />
+      <Item value="Framework" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.Foo">
+      <Item value="handler" priority="0" />
+      <Item value="Notify" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Out" priority="0" />
+      <Item value="Write" priority="0" />
+      <Item value="WriteLine" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console.Out">
+      <Item value="WriteLine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.FooWithoutDefault">
+      <Item value="Notify" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="CreateMock" priority="5" />
+      <Item value="ReplayAll" priority="6" />
+      <Item value="VerifyAll" priority="3" />
+      <Item value="Record" priority="4" />
+      <Item value="Equals" priority="0" />
+      <Item value="DynamicMock" priority="0" />
+      <Item value="Playback" priority="4" />
+      <Item value="Stub" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.MyEventHandler">
+      <Item value="Invoke" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Events.FooWithDefault">
+      <Item value="handler" priority="0" />
+      <Item value="Notify" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="GetParameters" priority="0" />
+      <Item value="GetBaseDefinition" priority="0" />
+      <Item value="GetMethodBody" priority="0" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.ParameterInfo">
+      <Item value="Name" priority="0" />
+      <Item value="GetHashCode" priority="0" />
+      <Item value="ParameterType" priority="0" />
+      <Item value="GetOptionalCustomModifiers" priority="0" />
+      <Item value="GetCustomAttributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.ParameterInfo[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;string&gt;">
+      <Item value="Remove" priority="1" />
+      <Item value="Count" priority="3" />
+      <Item value="Add" priority="5" />
+      <Item value="ForEach" priority="0" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IDisposable">
+      <Item value="Dispose" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;System.IDisposable&gt;">
+      <Item value="Add" priority="1" />
+      <Item value="ForEach" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Threading" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary&lt;object,object&gt;">
+      <Item value="Add" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DefaultNamespace.NunitLifecycleTest.Foo">
+      <Item value="count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start" priority="4" />
+      <Item value="Stop" priority="3" />
+      <Item value="Elapsed" priority="0" />
+      <Item value="ElapsedMilliseconds" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.ProcessContextFactory">
+      <Item value="CreateAndStart" priority="4" />
+      <Item value="Start" priority="3" />
+      <Item value="CreatePooled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.IProcessContext">
+      <Item value="ScheduleOnInterval" priority="0" />
+      <Item value="Enqueue" priority="1" />
+      <Item value="Start" priority="0" />
+      <Item value="Join" priority="2" />
+      <Item value="SubscribeToLast" priority="0" />
+      <Item value="Publish" priority="3" />
+      <Item value="Post" priority="0" />
+      <Item value="Subscribe" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.IProcessBus">
+      <Item value="CreateUniqueTopic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.ManualResetEvent">
+      <Item value="Set" priority="7" />
+      <Item value="WaitOne" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Timers.Timer">
+      <Item value="Start" priority="0" />
+      <Item value="Elapsed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Sandbox.Reflection.DelegateReflectionTest">
+      <Item value="FooBar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Reflection.DelegateReflectionTest.FooBar2">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Generics.GenercsTest.MethodCall">
+      <Item value="Call" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Generics.ErasureTest.Foo">
+      <Item value="bar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;T&gt;">
+      <Item value="Add" priority="0" />
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Generics.ErasureTest.Container&lt;string&gt;">
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="0" />
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Generics.ErasureTest.Container&lt;int&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Generics.ErasureTest.AContainer">
+      <Item value="GetEnumerator" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.EventHandler">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.EventsTest.Child">
+      <Item value="Hello" priority="0" />
+      <Item value="OnClick" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.EventsTest.Parent">
+      <Item value="child" priority="1" />
+      <Item value="sender" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IRepeat&lt;T&gt;">
+      <Item value="Never" priority="0" />
+      <Item value="Times" priority="0" />
+      <Item value="AtLeastOnce" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Compare" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IComparable&lt;T&gt;">
+      <Item value="CompareTo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Utils.ComparisonBuilder">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.MethodBase">
+      <Item value="GetCurrentMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="1" />
+      <Item value="FullName" priority="0" />
+      <Item value="StructLayoutAttribute" priority="0" />
+      <Item value="GetMethod" priority="2" />
+      <Item value="GetMethods" priority="0" />
+      <Item value="Namespace" priority="1" />
+      <Item value="Equals" priority="0" />
+      <Item value="IsGenericType" priority="1" />
+      <Item value="HasElementType" priority="1" />
+      <Item value="BaseType" priority="3" />
+      <Item value="GetGenericTypeDefinition" priority="0" />
+      <Item value="ExtractTypes" priority="3" />
+      <Item value="UnderlyingSystemType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;string&gt;">
+      <Item value="Add" priority="3" />
+      <Item value="Contains" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.LastCall.Repeat">
+      <Item value="AtLeastOnce" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Sandbox.Enums.EnumTest+AnEnum.foo">
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.OO.ClassTest.Foo">
+      <Item value="bar" priority="0" />
+      <Item value="bar2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment.StackTrace">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="IsDebugEnabled" priority="1" />
+      <Item value="Debug" priority="0" />
+      <Item value="Info" priority="2" />
+      <Item value="IsInfoEnabled" priority="0" />
+      <Item value="Logger" priority="0" />
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Core.ILogger">
+      <Item value="Repository" priority="2" />
+      <Item value="Log" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Repository.ILoggerRepository">
+      <Item value="GetAppenders" priority="1" />
+      <Item value="LevelMap" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Core.LogImpl">
+      <Item value="Logger" priority="0" />
+      <Item value="Info" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;int&gt;">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;object&gt;">
+      <Item value="Count" priority="1" />
+      <Item value="Exists" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable&lt;decimal&gt;">
+      <Item value="HasValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Spec.Parent">
+      <Item value="age" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="0" />
+      <Item value="ToString" priority="1" />
+      <Item value="[]" priority="0" />
+      <Item value="AppendLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual" priority="1" />
+      <Item value="IsTrue" priority="0" />
+      <Item value="IsNull" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.IApplicationContext">
+      <Item value="ApplyResources" priority="0" />
+      <Item value="GetObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Spring.Foo">
+      <Item value="Age" priority="2" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="Bar" priority="0" />
+      <Item value="Logger" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Spec.implicits.ImplicitConversion.Foo">
+      <Item value="Bar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Ticks" priority="1" />
+      <Item value="AddMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread.CurrentThread">
+      <Item value="GetHashCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.LogManager">
+      <Item value="GetCurrentLoggers" priority="0" />
+      <Item value="GetLogger" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Repository.Hierarchy.Hierarchy">
+      <Item value="LevelMap" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.Core.Level">
+      <Item value="All" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Appender.ConsoleAppender">
+      <Item value="Layout" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="ToCharArray" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="IndexOf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.ICommandExecutor">
+      <Item value="ExecuteAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;Integer&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Struct.FooBar">
+      <Item value="foo" priority="1" />
+      <Item value="GetHashCode" priority="0" />
+      <Item value="bar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Oddities.Foo">
+      <Item value="Bar" priority="0" />
+      <Item value="GetPredicate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Core.IO.FileSystemResource">
+      <Item value="Exists" priority="0" />
+      <Item value="File" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetTypes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodBody">
+      <Item value="GetILAsByteArray" priority="0" />
+      <Item value="LocalVariables" priority="0" />
+      <Item value="ExceptionHandlingClauses" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.Channel&lt;string&gt;">
+      <Item value="Publish" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.Channel&lt;O&gt;">
+      <Item value="Subscribe" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.IChannel&lt;T&gt;">
+      <Item value="Subscribe" priority="0" />
+      <Item value="ClearSubscribers" priority="0" />
+      <Item value="SubscribeToBatch" priority="0" />
+      <Item value="SubscribeToLast" priority="0" />
+      <Item value="Publish" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Retlang.Channel&lt;R&gt;">
+      <Item value="Subscribe" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.RhinoMocks.TestStub.Foo">
+      <Item value="Baz" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Spring.Layered.PostProcessor">
+      <Item value="Names" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Context.Support.XmlApplicationContext">
+      <Item value="GetObjectsOfType" priority="0" />
+      <Item value="AddObjectFactoryPostProcessor" priority="0" />
+      <Item value="Refresh" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IDictionary">
+      <Item value="Values" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ICollection">
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IEnumerator">
+      <Item value="MoveNext" priority="0" />
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;Spring.Objects.Factory.Config.IObjectPostProcessor&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Spring.Objects.Factory.Config.IConfigurableListableObjectFactory">
+      <Item value="GetObjectDefinitionNames" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Timer">
+      <Item value="Dispose" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Timing.Counter">
+      <Item value="AddOne" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Timing.TimerTest.Counter">
+      <Item value="WaitOne" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="Timer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Evemts.TestEventPropogation.B">
+      <Item value="OnAction" priority="1" />
+      <Item value="Notify" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Evemts.TestEventPropogation.A">
+      <Item value="OnAction" priority="1" />
+      <Item value="Subscribe" priority="0" />
+      <Item value="SubscribeWithDelegate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;int&gt;">
+      <Item value="Count" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerator&lt;int&gt;">
+      <Item value="MoveNext" priority="0" />
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="class" priority="4" />
+      <Item value="public" priority="17" />
+      <Item value="namespace" priority="0" />
+      <Item value="type" priority="7" />
+      <Item value="if" priority="5" />
+      <Item value="il" priority="1" />
+      <Item value="throw" priority="2" />
+      <Item value="new" priority="11" />
+      <Item value="Exception" priority="8" />
+      <Item value="e" priority="3" />
+      <Item value="info" priority="2" />
+      <Item value="Console" priority="4" />
+      <Item value="StringBuilder" priority="2" />
+      <Item value="methods" priority="0" />
+      <Item value="typeof" priority="4" />
+      <Item value="Specific" priority="0" />
+      <Item value="var" priority="4" />
+      <Item value="Common" priority="2" />
+      <Item value="Specific2" priority="0" />
+      <Item value="static" priority="3" />
+      <Item value="IList" priority="0" />
+      <Item value="Type" priority="6" />
+      <Item value="MethodBase" priority="0" />
+      <Item value="method" priority="4" />
+      <Item value="mbox" priority="0" />
+      <Item value="body" priority="2" />
+      <Item value="System" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="record" priority="1" />
+      <Item value="this" priority="1" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="Func" priority="2" />
+      <Item value="R" priority="4" />
+      <Item value="T" priority="7" />
+      <Item value="return" priority="4" />
+      <Item value="null" priority="3" />
+      <Item value="items" priority="0" />
+      <Item value="function" priority="0" />
+      <Item value="List" priority="3" />
+      <Item value="localVariable" priority="0" />
+      <Item value="dependencies" priority="5" />
+      <Item value="FoldLeft" priority="0" />
+      <Item value="classes" priority="1" />
+      <Item value="paramInfo" priority="0" />
+      <Item value="try" priority="2" />
+      <Item value="catch" priority="2" />
+      <Item value="where" priority="0" />
+      <Item value="IDisposable" priority="0" />
+      <Item value="Action" priority="2" />
+      <Item value="else" priority="1" />
+      <Item value="types" priority="2" />
+      <Item value="itype" priority="1" />
+      <Item value="CollectTypes" priority="0" />
+      <Item value="String" priority="1" />
+      <Item value="ActionArg" priority="0" />
+      <Item value="LocalVariableInfo" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="calls" priority="0" />
+      <Item value="TestFixture" priority="2" />
+      <Item value="void" priority="4" />
+      <Item value="Elmi" priority="1" />
+      <Item value="Boo" priority="0" />
+      <Item value="value" priority="1" />
+      <Item value="Foo" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="string" priority="2" />
+      <Item value="Bar" priority="0" />
+      <Item value="MockRepository" priority="0" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="ThreadStaticAttribute" priority="0" />
+      <Item value="Thread" priority="1" />
+      <Item value="t" priority="0" />
+      <Item value="strings" priority="1" />
+      <Item value="_AppDomain" priority="1" />
+      <Item value="ManualResetEvent" priority="0" />
+      <Item value="Assertion" priority="0" />
+      <Item value="Assert" priority="2" />
+      <Item value="resetEvent" priority="0" />
+      <Item value="enumerator" priority="3" />
+      <Item value="while" priority="0" />
+      <Item value="finally" priority="0" />
+      <Item value="done" priority="0" />
+      <Item value="caught2" priority="1" />
+      <Item value="caught" priority="0" />
+      <Item value="readonly" priority="0" />
+      <Item value="AbsCell" priority="1" />
+      <Item value="init" priority="0" />
+      <Item value="Int64" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="AbsCell&lt;T&gt;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="StartsWith" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetAssembly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Sandbox.Dependencies.Example">
+      <Item value="Main" priority="1" />
+      <Item value="MethodDependencies" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodBase">
+      <Item value="GetMethodBody" priority="0" />
+      <Item value="GetParameters" priority="0" />
+      <Item value="GetGenericArguments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Aggregate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="FoldLeft" priority="1" />
+      <Item value="ToList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.LocalVariableInfo">
+      <Item value="LocalType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="4" />
+      <Item value="Contains" priority="0" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.ExceptionHandlingClause">
+      <Item value="CatchType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Sandbox.Dependencies.Functionals">
+      <Item value="ExtractTypes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Values" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+ValueCollection">
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+ValueCollection+Enumerator">
+      <Item value="MoveNext" priority="1" />
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Sandbox.Collections.AbsCell`1">
+      <Item value="initial" priority="0" />
+      <Item value="Initial" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/f:ReflectionTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/f:UsingTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/f:ArrayTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Retlang/f:RequestReplyTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:RhinoMocks/f:DynamickMockTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:RhinoMocks/f:TestStub.cs" caret="533" scrollPosition="0|6" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Generics/f:ErasureTest.cs" caret="3622" scrollPosition="0|15" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:uat.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:b.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:dev.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/d:Layered/f:main.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/d:Layered/f:child2.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/d:Layered/f:child1.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:with-args.xml" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Generics/f:GenercsTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Reflection/f:DelegateReflectionTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Dependencies/f:TestDependencies.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Struct/f:TestStructure.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Enums/f:EnumTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Reflection/f:DependecyDetectionTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Reflection/f:MethodBaseTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:TestFactoryPostProcessor.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:PropertyConfigurationTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:Foo.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:AbstractDependencyTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/f:ObjectFactoryTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Timing/f:TimerTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Evemts/f:TestEventPropogation.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Yield/f:YieldTest.cs" caret="0" scrollPosition="0|0" />
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Spring/d:Layered/f:TestLayering.cs" caret="809" scrollPosition="11|7" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>True</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="54639005-1EE9-47B5-865B-6F52FC6CB205/d:Collections/f:DictionaryTest.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

@@ -1,0 +1,20 @@
+﻿<configuration>
+  <configSections>
+    <sectionGroup name="spring">
+      <section name="context" type="Spring.Context.Support.ContextHandler, Spring.Core"/>
+    </sectionGroup>
+    <section name="ConfigurationOverride" type="System.Configuration.NameValueSectionHandler"/>
+  </configSections>
+
+  <ConfigurationOverride>
+    <add key="b.age" value="1000"/>
+    <add key="a.name" value="namea"/>
+  </ConfigurationOverride>
+
+  <spring>
+    <context>
+      <resource uri="assembly://Spring/dev.xml"/>
+    </context>
+  </spring>
+
+</configuration>

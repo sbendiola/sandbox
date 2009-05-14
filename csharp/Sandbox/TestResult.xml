@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Project1.nunit" total="3" failures="1" not-run="0" date="2008-05-12" time="16:49:56">
+  <environment nunit-version="2.4.7.0" clr-version="2.0.50727.42" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\bin\Debug" machine-name="WWP-SBENDI01" user="sbendiola" user-domain="US" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Project1.nunit" success="False" time="0.359" asserts="0">
+    <results>
+      <test-suite name="C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\bin\Debug\Sandbox.dll" success="False" time="0.359" asserts="0">
+        <results>
+          <test-suite name="Events" success="False" time="0.359" asserts="0">
+            <results>
+              <test-suite name="DefaultDelegateForEventHandler" success="False" time="0.344" asserts="0">
+                <results>
+                  <test-case name="Events.DefaultDelegateForEventHandler.ShouldBlowUp" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="Events.DefaultDelegateForEventHandler.ShouldInvokeMock" executed="True" success="False" time="0.312" asserts="0">
+                    <failure>
+                      <message><![CDATA[Rhino.Mocks.Exceptions.ExpectationViolationException : ProxyDelegate_MyEventHandler_1.Invoke(Events.FooWithDefault, "foo"); Expected #0, Actual #1.]]></message>
+                      <stack-trace><![CDATA[at Rhino.Mocks.MethodRecorders.UnorderedMethodRecorder.DoGetRecordedExpectation(IInvocation invocation, Object proxy, MethodInfo method, Object[] args)
+at Rhino.Mocks.MethodRecorders.MethodRecorderBase.GetRecordedExpectation(IInvocation invocation, Object proxy, MethodInfo method, Object[] args)
+at Rhino.Mocks.Impl.ReplayMockState.DoMethodCall(IInvocation invocation, MethodInfo method, Object[] args)
+at Rhino.Mocks.Impl.ReplayMockState.MethodCall(IInvocation invocation, MethodInfo method, Object[] args)
+at Rhino.Mocks.MockRepository.MethodCall(IInvocation invocation, Object proxy, MethodInfo method, Object[] args)
+at Rhino.Mocks.Impl.RhinoInterceptor.Intercept(IInvocation invocation)
+at Castle.DynamicProxy.AbstractInvocation.Proceed()
+at ProxyDelegate_MyEventHandler_1Proxy75948833661d4a4ca0a076d73ad955ee.Invoke(Object , String )
+at Events.MyEventHandler.Invoke(Object sender, String message)
+at Events.FooWithDefault.Notify() in C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Class1.cs:line 16
+at Events.DefaultDelegateForEventHandler.ShouldInvokeMock() in C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Class1.cs:line 46
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="Events.DefaultDelegateForEventHandler.ShouldNotBlowUp" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

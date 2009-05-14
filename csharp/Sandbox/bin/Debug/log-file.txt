@@ -1,0 +1,2 @@
+2008-07-23 11:49:05,257 [foo bar] ERROR Sandbox.Spring.TestThrowingException [(null)] - executing 9
+2008-07-23 11:49:05,288 [foo bar] ERROR Sandbox.Spring.TestThrowingException [(null)] - throwing 9

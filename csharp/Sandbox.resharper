@@ -1,0 +1,60 @@
+<Configuration>
+  <CodeInspection>
+    <AssertionMethod MethodName="System.Diagnostics.Debug.Assert" Parameter="0" Type="IS_TRUE" />
+    <AssertionMethod MethodName="NUnit.Framework.Assert.IsTrue" Parameter="0" Type="IS_TRUE" />
+    <AssertionMethod MethodName="NUnit.Framework.Assert.IsFalse" Parameter="0" Type="IS_FALSE" />
+    <AssertionMethod MethodName="NUnit.Framework.Assert.IsNull" Parameter="0" Type="IS_NULL" />
+    <AssertionMethod MethodName="NUnit.Framework.Assert.IsNotNull" Parameter="0" Type="IS_NOT_NULL" />
+    <TerminatingMethod MethodName="System.Diagnostics.Debug.Fail" />
+    <TerminatingMethod MethodName="System.Environment.Exit" />
+    <TerminatingMethod MethodName="NUnit.Framework.Assert.Fail" />
+    <StringFormatMethod MethodName="System.String.Format" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.Text.StringBuilder.AppendFormat" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.IO.TextWriter.WriteLine" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.IO.TextWriter.Write" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.Console.WriteLine" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.Console.Write" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.Console.Out.Write" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.Diagnostics.Debug.Print" FormatParameterName="format" />
+    <StringFormatMethod MethodName="System.Text.StringBuilder.AppendFormat" FormatParameterName="format" />
+    <NotNullableValueAttribute>
+    </NotNullableValueAttribute>
+    <CanBeNullValueAttribute>
+    </CanBeNullValueAttribute>
+  </CodeInspection>
+  <SharedSolutionTemplateManager>
+    <LiveTemplates>
+      <Folder name="Shared Solution Templates">
+        <Template uid="85365e98-c11b-4740-9c88-37e68107ed54" text="private readonly log4net.ILog logger = log4net.LogManager.GetLogger(typeof ($CLASS$));" shortcut="logger" description="" reformat="true" shortenQualifiedReferences="true">
+          <Variables>
+            <Variable name="CLASS" expression="typeName()" initialRange="0" />
+          </Variables>
+          <CustomProperties />
+        </Template>
+      </Folder>
+    </LiveTemplates>
+    <Surrounds>
+      <Folder name="Shared Solution Templates" />
+    </Surrounds>
+    <FileTemplates>
+      <Folder name="Shared Solution Templates">
+        <Folder name="C#">
+          <Template uid="4ddded32-4489-463e-bb96-5e3f2e83c412" text="using NUnit.Framework;&#xD;&#xA;&#xD;&#xA;namespace $NAMESPACE$&#xD;&#xA;{&#xD;&#xA;  [TestFixture]&#xD;&#xA;  public class $CLASS$ {$END$}&#xD;&#xA;}" shortcut="Class" description="TestCase" reformat="true" shortenQualifiedReferences="true">
+            <Context>
+              <ProjectLanguageContext language="CSharp" />
+            </Context>
+            <Variables>
+              <Variable name="CLASS" expression="getFileNameWithoutExtension()" initialRange="0" />
+              <Variable name="NAMESPACE" expression="fileDefaultNamespace()" initialRange="0" />
+            </Variables>
+            <CustomProperties>
+              <Property key="FileName" value="Class" />
+              <Property key="Extension" value="cs" />
+              <Property key="ValidateFileName" value="False" />
+            </CustomProperties>
+          </Template>
+        </Folder>
+      </Folder>
+    </FileTemplates>
+  </SharedSolutionTemplateManager>
+</Configuration>

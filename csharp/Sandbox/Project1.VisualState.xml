@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Project1.nunit</TopNode>
+  <SelectedNode>[0-1000]C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Project1.nunit</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\Project1.nunit" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1084]C:\Documents and Settings\sbendiola\My Documents\Visual Studio 2005\Projects\Sandbox\Sandbox\bin\Debug\Sandbox.dll" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1097]DefaultNamespace" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1040]DefaultNamespace.NunitLifecycleTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1042]DefaultNamespace.NunitLifecycleTest.OneTestMethod" />
+                    <Node UniqueName="[0-1043]DefaultNamespace.NunitLifecycleTest.SecondTestMethod" />
+                    <Node UniqueName="[0-1041]DefaultNamespace.NunitLifecycleTest.ThrowExceptionInSetup" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1101]Events" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1068]Events.DefaultDelegateForEventHandler">
+                  <Nodes>
+                    <Node UniqueName="[0-1071]Events.DefaultDelegateForEventHandler.ShouldBlowUp" />
+                    <Node UniqueName="[0-1069]Events.DefaultDelegateForEventHandler.ShouldInvokeMock" />
+                    <Node UniqueName="[0-1070]Events.DefaultDelegateForEventHandler.ShouldNotBlowUp" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1085]Sandbox" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1065]Sandbox.ArrayTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1067]Sandbox.ArrayTest.ArraysAreCovariant" />
+                    <Node UniqueName="[0-1066]Sandbox.ArrayTest.ToConvertFromList" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1095]Sandbox.Collections" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1028]Sandbox.Collections.ListTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1029]Sandbox.Collections.ListTest.ForEachShouldTerminateOnException" />
+                        <Node UniqueName="[0-1030]Sandbox.Collections.ListTest.IterationThroughListShouldNotCauseConcurrentModification" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1096]Sandbox.Enums" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1034]Sandbox.Enums.EnumTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1036]Sandbox.Enums.EnumTest.ComparingEnumsWithSameValueShouldNotBeEqual" />
+                        <Node UniqueName="[0-1038]Sandbox.Enums.EnumTest.DefaultingInitialValueIncrementsByOne" />
+                        <Node UniqueName="[0-1039]Sandbox.Enums.EnumTest.EnumsMustBeExplicitlyCastToIntForComparisonToInt" />
+                        <Node UniqueName="[0-1035]Sandbox.Enums.EnumTest.EnumValuesAssignedWithSameValueShouldNotBeEqual" />
+                        <Node UniqueName="[0-1037]Sandbox.Enums.EnumTest.LeavingNoValueShouldDefaultStartAt0" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1100]Sandbox.Equality" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1063]Sandbox.Equality.EqualityTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1064]Sandbox.Equality.EqualityTest.EqEqShouldNotCallEquals" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1026]Sandbox.EventsTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1027]Sandbox.EventsTest.EventCanBeBubbledUp" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1086]Sandbox.Generics" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1060]Sandbox.Generics.ErasureTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1061]Sandbox.Generics.ErasureTest.ChainedCallsShouldWork" />
+                        <Node UniqueName="[0-1062]Sandbox.Generics.ErasureTest.ListsAreNotCovariant" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1001]Sandbox.Generics.GenercsTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1003]Sandbox.Generics.GenercsTest.GenericTypeShouldBeAvailableAtRuntime" />
+                        <Node UniqueName="[0-1002]Sandbox.Generics.GenercsTest.ShouldBeAbleToDeclareBaseTypeOnMethod" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1094]Sandbox.Log4Net" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1024]Sandbox.Log4Net.Log4Net">
+                      <Nodes>
+                        <Node UniqueName="[0-1025]Sandbox.Log4Net.Log4Net.DuplicateLogEntriesShouldNotStopLogging" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1103]Sandbox.OO" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1078]Sandbox.OO.ClassTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1080]Sandbox.OO.ClassTest.CanChangeMethodBehaviorThroughStaticType" />
+                        <Node UniqueName="[0-1081]Sandbox.OO.ClassTest.ChainedMethodCallsCanChangeMethodBehaviorThroughStaticType" />
+                        <Node UniqueName="[0-1079]Sandbox.OO.ClassTest.MethodsAreNotVirtualByDefauault" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1090]Sandbox.Reflection" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1010]Sandbox.Reflection.DelegateReflectionTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1011]Sandbox.Reflection.DelegateReflectionTest.DelegateInfoCanBeDiscoveredFromReflection" />
+                        <Node UniqueName="[0-1012]Sandbox.Reflection.DelegateReflectionTest.DelegateReturnTypesShouldBeCovariant" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1058]Sandbox.Reflection.DependecyDetectionTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1059]Sandbox.Reflection.DependecyDetectionTest.GivenAnInstanceShouldBeAbleToDetermineRuntimeDependencies" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1054]Sandbox.Reflection.MethodBaseTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1057]Sandbox.Reflection.MethodBaseTest.InstanceShouldReturnsExpected" />
+                        <Node UniqueName="[0-1056]Sandbox.Reflection.MethodBaseTest.StaticShouldReturnsExpected" />
+                        <Node UniqueName="[0-1055]Sandbox.Reflection.MethodBaseTest.TypeOfShouldReturnsExpected" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1018]Sandbox.ReflectionTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1019]Sandbox.ReflectionTest.ShouldGetParamNamesFromMethod" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1098]Sandbox.Retlang" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1046]Sandbox.Retlang.Enqueue">
+                      <Nodes>
+                        <Node UniqueName="[0-1049]Sandbox.Retlang.Enqueue.CreatePooled_ShouldBlockSubsequentCalls" />
+                        <Node UniqueName="[0-1047]Sandbox.Retlang.Enqueue.ScheduleOnInterval_ShouldBlockSubsequentCalls" />
+                        <Node UniqueName="[0-1048]Sandbox.Retlang.Enqueue.ScheduleOnInterval_ShouldRepeatsCalls" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1099]Sandbox.RhinoMocks" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1050]Sandbox.RhinoMocks.DynamickMockTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1051]Sandbox.RhinoMocks.DynamickMockTest.DynamicMockShouldRespectExpectations" />
+                        <Node UniqueName="[0-1053]Sandbox.RhinoMocks.DynamickMockTest.PlaybackInUsingShouldCallVerifyAll" />
+                        <Node UniqueName="[0-1052]Sandbox.RhinoMocks.DynamickMockTest.VerifyAllMustBeCalledAfterRecord" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1093]Sandbox.Runtime" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1022]Sandbox.Runtime.TailCallSupport">
+                      <Nodes>
+                        <Node UniqueName="[0-1023]Sandbox.Runtime.TailCallSupport.RecursiveCallShouldNotIncrementStackIfTailCall" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1092]Sandbox.Semaphore" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1020]Sandbox.Semaphore.ManualResetEventTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1021]Sandbox.Semaphore.ManualResetEventTest.ShouldAllowMultipleSets" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1091]Sandbox.Spec" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1082]Sandbox.Spec.Statics">
+                      <Nodes>
+                        <Node UniqueName="[0-1083]Sandbox.Spec.Statics.StaticInitializationHappensBeforeInstanceCOnstructor" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1013]Sandbox.Spec.WhatTheNull">
+                      <Nodes>
+                        <Node UniqueName="[0-1017]Sandbox.Spec.WhatTheNull.CompilerKnowsSemantics" />
+                        <Node UniqueName="[0-1014]Sandbox.Spec.WhatTheNull.LocalVariableAssigntoNull" />
+                        <Node UniqueName="[0-1016]Sandbox.Spec.WhatTheNull.NullableAlwaysCanCallHasValue" />
+                        <Node UniqueName="[0-1015]Sandbox.Spec.WhatTheNull.NullableFieldNeverANullPointer" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1102]Sandbox.Text" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1072]Sandbox.Text.StringComparisonTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1077]Sandbox.Text.StringComparisonTest.EqualsShouldBeTheSameAsEq" />
+                        <Node UniqueName="[0-1073]Sandbox.Text.StringComparisonTest.FirstParamNullCanBeCompared" />
+                        <Node UniqueName="[0-1076]Sandbox.Text.StringComparisonTest.InstanceCompare" />
+                        <Node UniqueName="[0-1075]Sandbox.Text.StringComparisonTest.NothNullCanBeCompared" />
+                        <Node UniqueName="[0-1074]Sandbox.Text.StringComparisonTest.SecondParamNullCanBeCompared" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1087]Sandbox.Threading" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1004]Sandbox.Threading.SleepTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1005]Sandbox.Threading.SleepTest.JoinShouldWaitForSleepTofinish" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1044]Sandbox.Threading.StarvationTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1045]Sandbox.Threading.StarvationTest.MainthreadCanStopOtherThreads" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1089]Sandbox.Timing" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1008]Sandbox.Timing.StopwatchTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1009]Sandbox.Timing.StopwatchTest.ElapsedTimeShouldIncrement" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1031]Sandbox.UsingTest">
+                  <Nodes>
+                    <Node UniqueName="[0-1032]Sandbox.UsingTest.ShouldAllowNull" />
+                    <Node UniqueName="[0-1033]Sandbox.UsingTest.ShouldCallDispose" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1088]Sandbox.Utils" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1006]Sandbox.Utils.ComparisonsTest">
+                      <Nodes>
+                        <Node UniqueName="[0-1007]Sandbox.Utils.ComparisonsTest.ShouldOnlyAllowSameType" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>
