@@ -18,14 +18,30 @@ namespace Sandbox
         [Test]
         public void ShouldCallDispose()
         {
-            MockRepository mocks = new MockRepository();
-            IDisposable mock = mocks.CreateMock<IDisposable>();
-            mock.Dispose();
-            mocks.ReplayAll();
+            var mock = MockRepository.GenerateMock<IDisposable>();            
             using (mock)
             {
 
             }
+            mock.AssertWasCalled(m => m.Dispose());
+        }
+
+        [Test]
+        public void ShouldCallDisposeWhenExceptionThrown()
+        {
+            var mock = MockRepository.GenerateMock<IDisposable>();
+            try
+            {
+                using (mock)
+                {
+                    throw new Exception();
+                }    
+                Assert.Fail();
+            } catch(Exception expected)
+            {
+                mock.AssertWasCalled(m => m.Dispose());    
+            }
+            
         }
     }
 }

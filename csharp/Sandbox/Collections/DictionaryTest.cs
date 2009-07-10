@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using NUnit.Framework;
+using System.Linq;
 
 namespace Sandbox.Collections
 {
@@ -68,6 +67,23 @@ namespace Sandbox.Collections
 
             Reseet(new AbsCell<Int64>(33));
         }
+
+        [Test]
+        public void ChangingAllDictionaryValues()
+        {
+            var d = new Dictionary<string, bool>
+                        {
+                            {"foo", false},
+                            {"bar", true}
+                        };
+
+            var dictionary = d.Keys.ToDictionary(k => k, v => false);
+            Assert.AreEqual(2, dictionary.Count);
+            Assert.AreEqual(false, dictionary["foo"]);
+            Assert.AreEqual(false, dictionary["bar"]);
+        }
+
+      
 
         private void Reseet<T>(AbsCell<T> cell)
         {

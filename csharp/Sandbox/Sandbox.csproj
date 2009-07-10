@@ -61,6 +61,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\repo\drw\projects\risk\libs\trunk\dependencies\thirdparty\log4net\libraries\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Model, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\test\src\Model.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.core, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\libs\nunit\bin\nunit.core.dll</HintPath>
@@ -81,6 +85,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\libs\nunit\bin\nunit.framework.extensions.dll</HintPath>
     </Reference>
+    <Reference Include="predef, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\test\src\predef.dll</HintPath>
+    </Reference>
     <Reference Include="Retlang, Version=0.2.9.0, Culture=neutral, PublicKeyToken=a99b3bce1dc72e93, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\repo\retlang\src\Retlang\bin\Release\Retlang.dll</HintPath>
@@ -88,6 +96,10 @@
     <Reference Include="Rhino.Mocks, Version=3.5.0.1337, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\DRWProduction\repo\drw\projects\risk\libs\dependencies\thirdparty\rhinomocks\libraries\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="scalaruntime, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\test\src\scalaruntime.dll</HintPath>
     </Reference>
     <Reference Include="Spring.Core, Version=1.1.0.2, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -122,6 +134,7 @@
     <Compile Include="Generics\ErasureTest.cs" />
     <Compile Include="Generics\GenercsTest.cs" />
     <Compile Include="Initializers\TestObjectInitializers.cs" />
+    <Compile Include="Linq\ExpressionTest.cs" />
     <Compile Include="Log4Net\Log4Net.cs" />
     <Compile Include="Mock\MockUsage.cs" />
     <Compile Include="Nunit\NunitLifecycle.cs" />
@@ -135,6 +148,7 @@
     <Compile Include="RhinoMocks\DynamickMockTest.cs" />
     <Compile Include="RhinoMocks\TestStub.cs" />
     <Compile Include="Runtime\TailCallSupport.cs" />
+    <Compile Include="scala\ModelTest.cs" />
     <Compile Include="Semaphore\ManualResetEventTest.cs" />
     <Compile Include="Spec\implicit\ImplicitConversion.cs" />
     <Compile Include="Spec\NullSafe.cs" />
